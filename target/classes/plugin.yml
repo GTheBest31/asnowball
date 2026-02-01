@@ -1,0 +1,10 @@
+name: ASnowball
+version: 1.0
+main: dev.gthebest.ASnowball
+author: GTheBest_
+api-version: 1.18
+depend: [PlaceholderAPI]
+commands:
+  aevent:
+    description: Main command for ASnowball
+    permission: aevent.admin

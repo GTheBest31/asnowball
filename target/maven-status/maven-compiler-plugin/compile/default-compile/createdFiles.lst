@@ -1,0 +1,8 @@
+dev\gthebest\commands\EventCommand$2.class
+dev\gthebest\commands\EventCommand$1.class
+dev\gthebest\data\DataManager.class
+dev\gthebest\commands\EventCommand.class
+dev\gthebest\placeholders\EventExpansion.class
+dev\gthebest\listeners\GameListener.class
+dev\gthebest\commands\EventTabCompleter.class
+dev\gthebest\ASnowball.class

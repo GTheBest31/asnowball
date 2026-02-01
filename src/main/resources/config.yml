@@ -1,0 +1,38 @@
+messages:
+  prefix: "&#00bfff[ASnowball] "
+  event-broadcast: "&#ffffff{player} &#00bfffhas joined the event!"
+  event-not-joined: "&#ffffff{player} &#ff0000declined to join the event."
+  winner-msg: "&#ffaa00&lWINNER! &#ffffff{player} won with &#ffaa00{score} &#ffffffpoints!"
+  reload: "&#00ff00Plugin has been reloaded successfully!"
+  set-main-spawn: "&#00ff00Main spawn has been set!"
+  set-team-spawn: "&#00ff00Spawn for team {team} has been set!"
+
+gui:
+  title: "&#00bfff&lEVENT JOIN"
+  join-item:
+    name: "&a&lJOIN"
+    lore: ["&7Click to join the snowball fight!"]
+  leave-item:
+    name: "&c&lDECLINE"
+    lore: ["&7Click to stay here."]
+
+scoreboard:
+  title: "&#00bfff&lSNOWBALL FIGHT"
+  lines:
+    - "&7&m----------------"
+    - "&fPlayer: &#00bfff%player_name%"
+    - "&fTeam: %team_color%%team_name%"
+    - "&fPoints: &#ffaa00%score%"
+    - "&fTime: &#55ff55%time%s"
+    - "&7&m----------------"
+
+settings:
+  countdown: 10
+  game-duration: 180
+  winner-command: "give %player% diamond 10"
+
+teams:
+  green: { color: "&a", display: "Green" }
+  yellow: { color: "&e", display: "Yellow" }
+  red: { color: "&c", display: "Red" }
+  blue: { color: "&9", display: "Blue" }
