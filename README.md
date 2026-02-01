@@ -1,0 +1,7 @@
+ASnowball is an advanced snowball fight event plugin designed for modern Minecraft servers running version 1.18.2 or higher and Java 17. This plugin allows server administrators to host fully automated team-based snowball events. It features a dynamic team system where you can add as many teams as you want in the configuration file and the plugin will automatically balance players between them. When an event starts, all online players receive a GUI invitation to join. Once the game begins, players gain points by hitting opponents with snowballs.
+
+The plugin includes a real-time scoreboard that shows player points, team names, and remaining time. It also features an action bar timer and full Hex color support for all messages and menus. ASnowball is compatible with PlaceholderAPI, allowing you to create leaderboards using placeholders like %asnowball_total_wins_1%. All player wins are saved in a local data file so progress is never lost. Administrators can set a main lobby spawn and specific team spawns using commands. At the end of the game, the player with the most points is announced as the winner and the server can automatically execute a reward command.
+
+Commands: /aevent start - Opens the join menu and starts the countdown. /aevent stop - Ends the current event immediately. /aevent setspawn - Sets the main return point. /aevent team (name) - Sets the spawn point for a specific team. /aevent reload - Reloads the plugin configuration.
+
+Permissions: aevent.admin - Required for all commands.
